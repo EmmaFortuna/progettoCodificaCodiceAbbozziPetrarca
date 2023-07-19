@@ -101,7 +101,7 @@
 
                 <footer>
                     <p>Pagina web realizzata usando la trasformazione XSLT della codifica XML TEI delle carte 7r, 7v e 8r del Codice degli Abbozzi di Petrarca (Vat. lat. 3196)</p>
-                    <p>Vedi su <a target="_blank" href="">GitHub</a>.</p>
+                    <p>Vedi su <a target="_blank" href="https://github.com/EmmaFortuna/progettoCodificaCodiceAbbozziPetrarca/tree/main">GitHub</a>.</p>
                     <br/>
                     <p>Emanuela Fortuna, 2023</p>
                 </footer>
