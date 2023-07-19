@@ -1,0 +1,692 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?> 
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+        <!--informazioni sul file-->
+            <titleStmt>
+            <!--codifica del titolo dell'edizione digitale--> 
+                <title>Codifica elettronica delle carte 7r,7v,8r del Vaticano Latino 3196</title>
+                <author>Francesco Petrarca (1304-1374)</author>
+                <respStmt xml:id="EF">
+                    <resp>Codifica TEI a cura di </resp>
+                    <name>Emanuela Fortuna.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Revisione della codifica a cura di </resp>
+                    <name>Angelo Mario Del Grosso.</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Edizione digitale realizzata nel <date when="2023">2023</date>
+                </edition>
+                <principal>Emanuela Fortuna</principal>
+                <sponsor>Università di Pisa</sponsor>
+            </editionStmt>
+            <publicationStmt>
+            <!--dati di diffusione e distribuzione dell'edizione-->
+                <distributor>Università di Pisa</distributor>
+                <address>
+                    <addrLine>Lungarno Antonio Pacinotti 43, 56126, Pisa (PI), IT</addrLine>
+                </address>
+                <availability status="free">
+                    <p>
+                        Questa edizione digitale è libera e diffusa attraverso <ref target="">GitHub</ref>.
+                    </p>
+                </availability>
+            </publicationStmt>
+            <notesStmt>
+                <note>Edizione digitale realizzata come progetto d'esame di Codifica di testi del corso di laurea in Informatica Umanistica dell'Università di Pisa. Sono codificate le carte 7r,7v e 8r del Codice Degli Abbozzi di Petrarca (Vat.lat.3196)</note>
+            </notesStmt>
+            <sourceDesc>
+            <!--descrizione della fonte primaria-->
+                <msDesc>
+                <!--descrizione del manoscritto-->
+                    <msIdentifier xml:id="Vat.lat.3196">
+                    <!--identificatore del manoscritto, unica componente obbligatoria-->
+                        <country key="SCV">Stato della Città del Vaticano</country>
+                        <settlement type="city">Città del Vaticano</settlement>
+                        <institution ref="https://www.vaticanlibrary.va/"> Biblioteca Apostolica Vaticana  </institution>
+                        <collection ref="https://opac.vatlib.it/">Fondo Vaticani Latini</collection>
+                        <idno type="shelfmark">Vat.lat.3196</idno> <!--l'attributo "type" con valore "shelfmark" identifica univocamente la collocazione del manoscritto all'interno dell'istituzione che lo conserva come etichetta o segnale posto su una mensola o scaffale di una biblioteca-->
+                    </msIdentifier>
+                    <msContents>
+                    <!--contenuto intellettuale del manoscritto-->
+                        <summary>Contenuti delle carte 7r, 7v, 8r</summary>
+                        <msItem n="1">
+                            <locus>c. 7r</locus>
+                            <title>Per mirar Policleto intento et fiso</title>
+                            <bibl>
+                            <title>38[77]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="2">
+                            <locus>c. 7r</locus>
+                            <title>Quando giunse a Simon l'alto concepto</title>
+                            <bibl>
+                            <title>39[78]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="3">
+                            <locus>c. 7r</locus>
+                            <title>Que' che'n tesaglia ebbe le man' sì pronte</title>
+                            <bibl>
+                            <title>40[44]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="4">
+                            <locus>c. 7v</locus>
+                            <title>L'arbor gentil che forte amai molt'anni</title>
+                            <bibl>
+                            <title>41[60]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="5">
+                            <locus>c. 7v</locus>
+                            <title>S'io credesse per morte essere scarco</title>
+                            <bibl>
+                            <title>42[36]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="6">
+                            <locus>c. 7v</locus>
+                            <title>L'oro et le perle e i fior' uermigli e' bianchi</title>
+                            <bibl>
+                            <title>43[46]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="7">
+                            <locus>c. 8r</locus>
+                            <title>Quando dal proprio sito si rimoue</title>
+                            <bibl>
+                            <title>44[41]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="8">
+                            <locus>c. 8r</locus>
+                            <title>Ma poi che 'l dolce riso humile et piano</title>
+                            <bibl>
+                            <title>45[42]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                        <msItem n="9">
+                            <locus>c. 8r</locus>
+                            <title>Il figlio di latona auea già noue</title>
+                            <bibl>
+                            <title>46[43]</title>
+                            <biblScope>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196, Laura Paolino, Riccardo Ricciardi, 2000</biblScope>
+                            </bibl>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                    <!--descrizione fisica completa del manoscritto-->
+                        <objectDesc form ="codex ">
+                            <supportDesc>
+                                <support> 
+                                <!--descrizione del supporto fisico come il tipo di materiale, la dimensione, il colore o altre caratteristiche -->
+                                Fogli di <material>pergamena</material>.
+                                </support>
+                                <extent>
+                                <!--descrizione dell'estensione fisica, come il numero di fogli, pagine, linee o altre unità di misura-->
+                                 20 carte di mano di <name type="person" ref="#FP">Francesco Petrarca</name> color giallognolo-marroncino
+                                    <dimensions  scope ="all"  type ="leaf" unit ="inch"> 
+                                    <!--le dimensioni fisiche del manoscritto, come l'altezza e la larghezza del foglio-->
+                                        <height>  </height> 
+                                        <width>  </width> 
+                                    </dimensions>
+                                </extent>
+                                <collation>
+                                <!--descrizione dell'ordine e della disposizione dei fogli o delle sezioni-->
+                                <!--elementi figli come <quire> (quaderno), <folio> (foglio), <gatherings> (raccolte) o altri-->
+                                    <p>Il manoscritto è composto da carte in origine sciolte, rilegate insieme dopo la morte di Petrarca e contenente materiali petrarcheschi integralmente autografi: cinquantasette poesie (o parti di esse) confluite nel Canzoniere, dodici poesie (o parti di esse) rimaste escluse, quattro poesie di altri autori indirizzate a Petrarca, due capitoli (uno non intero) dei Trionfi, un frammento di lettera in latino (Familiares XVI 6) </p>
+                                </collation>
+                                <condition>
+                                <!--descrizione dello stato di conservazione-->
+                                    <p>Le pagine sono in buone condizioni, il manoscritto è stato restaurato </p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                <!--descrizione del layout del testo, come la disposizione delle colonne, delle pagine o dei paragrafi-->
+                                 I versi dei sonetti sono disposti due per riga, separati da un breve spazio che articola il testo in due colonne: sinistra (versi dispari) e destra (versi pari).   
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                        <!--descrizione delle caratteristiche della scrittura o delle mani presenti-->
+                            <p>La mano è quella dell'autore, cioè <name type="person" xml:id="FP">Francesco Petrarca</name>, sia nei sonetti che nelle postille.</p>
+                        </handDesc>
+                        
+                        <decoDesc> 
+                            <p>  </p> 
+                        </decoDesc> 
+                    </physDesc>
+                    <history>
+                    <!-- storia del manoscritto-->
+                        <summary>Il manoscritto si trovava nel patrimonio libraio lasciato da Petrarca alla sua morte. Dal genero il codice passò fino ad un non identificato abitante di Padova che lo mise a disposizione di Manuzio affinchè Bembo potesse visionarlo e ne venne riconosciuto il valore. </summary>
+                            <origin notAfter="1374">
+                                <p>Il codice dunque si data 1336-1374. </p>
+                            </origin>
+                            <acquisition>
+                                <p>Venne infine aquisito dalla Biblioteca Vaticana con l'acquisizione del fondo orsiniano</p>
+                            </acquisition>
+                    </history>
+                    <additional>
+                    <!-- informazioni aggiuntive, anche bibliografiche, e informazioni curatoriali-->
+                        <listBibl>
+                        <bibl>
+                            Tutte le informazioni sono tratte dall'edizione monografica: "Il codice degli abbozzi / Francesco Petrarca; edizione e storia del manoscritto Vaticano latino 3196 a cura di <persName>Laura Paolino</persName>
+                        </bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc> 
+        <!-- informazioni riguardo lo schema (e il modello di codifica) utilizzato-->
+            <charDecl>
+                <glyph xml:id="oPuntoSottoscritto">
+                    <glyphName>Latin Small Letter O with Dot Below</glyphName>
+                    <mapping>&#7885;</mapping>
+                </glyph>
+                <glyph xml:id="ePuntoSottoscritto">
+                    <glyphName>Latin Small Letter E with Dot Below</glyphName>
+                    <mapping>&#7865;</mapping>
+                </glyph>
+                <glyph xml:id="aPuntoSottoscritto">
+                    <glyphName>Latin Small Letter A with Dot Below</glyphName>
+                    <mapping>&#7841;</mapping>
+                </glyph>
+                <glyph xml:id="nConTilde">
+                    <glyphName>Latin Small Letter N with Tilde</glyphName>
+                    <mapping>&#241;</mapping>
+                </glyph>
+                <glyph xml:id="uConTilde">
+                    <glyphName>Latin Small Letter U with Tilde</glyphName>
+                    <mapping>&#361;</mapping>
+                </glyph>
+                <glyph xml:id="oConTilde">
+                    <glyphName>Latin Small Letter O with Tilde</glyphName>
+                    <mapping>&#245;</mapping>
+                </glyph>
+                <glyph xml:id="eConTilde">
+                    <glyphName>Latin Small Letter E with Tilde</glyphName>
+                    <mapping>&#7869;</mapping>
+                </glyph>
+                <glyph xml:id="iConTilde">
+                    <glyphName>Latin Small Letter I with Tilde</glyphName>
+                    <mapping>&#297;</mapping>
+                </glyph>
+                <glyph xml:id="aConTilde">
+                    <glyphName>Latin Small Letter A with Tilde</glyphName>
+                    <mapping>&#227;</mapping>
+                </glyph>
+                <glyph xml:id="titulus">
+                    <glyphName>Tilde</glyphName>
+                    <mapping>&#126;</mapping>
+                </glyph>
+                <glyph xml:id="etTironiana">
+                    <glyphName>Tironian Sign Et</glyphName>
+                    <mapping>&#8266;</mapping>
+                </glyph>
+                <glyph xml:id="PAstaTagliata">
+                    <glyphName>Latin capital letter p with stroke through descender</glyphName>
+                    <mapping>&#42832;</mapping>
+                </glyph>
+                <glyph xml:id="pAstaTagliata">
+                    <glyphName>Latin Small Letter P with Flourish Unicode Character</glyphName>
+                    <mapping>&#42835;</mapping>
+                </glyph>
+                <glyph xml:id="sAstaTagliata">
+                    <glyphName>Latin Small Letter Sharp S</glyphName>
+                    <mapping>&#223;</mapping>
+                </glyph>
+                <glyph xml:id="hAstaTagliata">
+                    <glyphName>Latin Small Letter H with Stroke</glyphName>
+                    <mapping>&#295;</mapping>
+                </glyph>
+            </charDecl>
+
+            <projectDesc>
+            <!--descrizione generale del progetto di codifica, inclusi obiettivi, finalità e contesto di lavoro-->
+                <p>La codifica del testo è stata realizzata rispettando le linee guida TEI come progetto d'esame del corso di Codifica dei Testi dell'Università di Pisa.</p>
+            </projectDesc>
+            <!-- l'elemento <editorialDecl> dovrebbe contenere dichiarazioni editoriali, che indicano le convenzioni e le scelte editoriali adottate, ma in questa edizione si è scelto di essere quanto più fedeli al manoscritto senza applicare modifiche editoriali--> 
+        </encodingDesc>
+        <profileDesc>
+        <!--descrizione del testo: quando è stato creato, da chi, usando quali lingue etc.-->
+            <langUsage>
+                <language ident="it" usage="100">Italiano</language>
+            </langUsage>
+            <creation>
+                <date>13??-1374</date>
+            </creation>
+        </profileDesc>
+       
+    </teiHeader>
+
+    <facsimile>
+
+    <!-- Rappresentazione visuale della carta 7r -->
+        <surface  xml:id="carta7r" start="#carta7r" n="1">
+            <graphic url="img/Vat.lat.3196_7r.jpg" width="600px" height="880px"/>
+
+            <zone ulx="71" uly="58" lrx="503" lry="93" xml:id="c7r_l1" start="#c7r_lb1"/>
+            <zone ulx="70" uly="94" lrx="504" lry="115" xml:id="c7r_l2" start="#c7r_lb2"/>
+            <zone ulx="69" uly="115" lrx="505" lry="136" xml:id="c7r_l3" start="#c7r_lb3"/>
+            <zone ulx="68" uly="137" lrx="504" lry="160" xml:id="c7r_l4" start="#c7r_lb4"/>
+            <zone ulx="67" uly="159" lrx="503" lry="187" xml:id="c7r_l5" start="#c7r_lb5"/>
+            <zone ulx="67" uly="188" lrx="503" lry="208" xml:id="c7r_l6" start="#c7r_lb6"/>
+            <zone ulx="67" uly="209" lrx="504" lry="231" xml:id="c7r_l7" start="#c7r_lb7"/>
+            
+            <zone ulx="75" uly="249" lrx="515" lry="279" xml:id="c7r_l8" start="#c7r_lb8"/>
+            <zone ulx="75" uly="279" lrx="517" lry="296" xml:id="c7r_l9" start="#c7r_lb9"/>
+            <zone ulx="76" uly="297" lrx="542" lry="320" xml:id="c7r_l10" start="#c7r_lb10"/>
+            <zone ulx="77" uly="318" lrx="476" lry="343" xml:id="c7r_l11" start="#c7r_lb11"/>
+            <zone ulx="76" uly="343" lrx="523" lry="367" xml:id="c7r_l12" start="#c7r_lb12"/>
+            <zone ulx="76" uly="366" lrx="525" lry="391" xml:id="c7r_l13" start="#c7r_lb13"/>
+            <zone ulx="76" uly="393" lrx="505" lry="418" xml:id="c7r_l14" start="#c7r_lb14"/>
+
+            <zone ulx="67" uly="434" lrx="516" lry="474" xml:id="c7r_l15" start="#c7r_lb15"/>
+            <zone ulx="68" uly="472" lrx="516" lry="493" xml:id="c7r_l16" start="#c7r_lb16"/>
+            <zone ulx="69" uly="493" lrx="527" lry="518" xml:id="c7r_l17" start="#c7r_lb17"/>
+            <zone ulx="67" uly="515" lrx="553" lry="546" xml:id="c7r_l18" start="#c7r_lb18"/>
+            <zone ulx="70" uly="546" lrx="544" lry="576" xml:id="c7r_l19" start="#c7r_lb19"/>
+            <zone ulx="67" uly="576" lrx="531" lry="599" xml:id="c7r_l20" start="#c7r_lb20"/>
+            <zone ulx="65" uly="599" lrx="531" lry="628" xml:id="c7r_l21" start="#c7r_lb21"/>
+       
+        </surface>
+    
+    <!-- Rappresentazione visuale della carta 7v -->
+        <surface  xml:id="carta7v" start="#carta7v" n="2">
+            <graphic url="img/Vat.lat.3196_7v.jpg" width="600px" height="815px" />
+
+            <zone ulx="64" uly="62" lrx="560" lry="114" xml:id="c7v_l1" start="#c7v_lb1"/>
+            <zone ulx="63" uly="114" lrx="559" lry="140" xml:id="c7v_l2" start="#c7v_lb2"/>
+            <zone ulx="71" uly="133" lrx="543" lry="162" xml:id="c7v_l3" start="#c7v_lb3"/>
+            <zone ulx="71" uly="164" lrx="541" lry="198" xml:id="c7v_l4" start="#c7v_lb4"/>
+            <zone ulx="71" uly="189" lrx="540" lry="225" xml:id="c7v_l5" start="#c7v_lb5"/>
+            <zone ulx="73" uly="213" lrx="569" lry="254" xml:id="c7v_l6" start="#c7v_lb6"/>
+            <zone ulx="71" uly="236" lrx="593" lry="280" xml:id="c7v_l7" start="#c7v_lb7"/>
+
+            <zone ulx="68" uly="297" lrx="516" lry="338" xml:id="c7v_l8" start="#c7v_lb8"/>
+            <zone ulx="68" uly="329" lrx="535" lry="367" xml:id="c7v_l9" start="#c7v_lb9"/>
+            <zone ulx="68" uly="350" lrx="565" lry="393" xml:id="c7v_l10" start="#c7v_lb10"/>
+            <zone ulx="67" uly="378" lrx="539" lry="423" xml:id="c7v_l11" start="#c7v_lb11"/>
+            <zone ulx="71" uly="406" lrx="522" lry="445" xml:id="c7v_l12" start="#c7v_lb12"/>
+            <zone ulx="69" uly="438" lrx="548" lry="477" xml:id="c7v_l13" start="#c7v_lb13"/>
+            <zone ulx="69" uly="463" lrx="540" lry="498" xml:id="c7v_l14" start="#c7v_lb14"/>
+
+            <zone ulx="77" uly="514" lrx="595" lry="556" xml:id="c7v_l15" start="#c7v_lb15"/>
+            <zone ulx="72" uly="541" lrx="593" lry="577" xml:id="c7v_l16" start="#c7v_lb16"/>
+            <zone ulx="68" uly="574" lrx="595" lry="604" xml:id="c7v_l17" start="#c7v_lb17"/>
+            <zone ulx="70" uly="603" lrx="595" lry="635" xml:id="c7v_l18" start="#c7v_lb18"/>
+            <zone ulx="67" uly="632" lrx="595" lry="665" xml:id="c7v_l19" start="#c7v_lb19"/>
+            <zone ulx="65" uly="659" lrx="596" lry="690" xml:id="c7v_l20" start="#c7v_lb20"/>
+            <zone ulx="63" uly="689" lrx="596" lry="718" xml:id="c7v_l21" start="#c7v_lb21"/>
+
+        </surface>
+    <!-- Rappresentazione visuale della carta 8r -->
+        <surface  xml:id="carta8r" start="#carta8r" n="3">
+            <graphic url="img/Vat.lat.3196_8r.jpg" width="600px" height="815px" />
+
+            <zone ulx="87" uly="68" lrx="546" lry="107" xml:id="c8r_l1" start="#c8r_lb1"/>
+            <zone ulx="87" uly="106" lrx="547" lry="127" xml:id="c8r_l2" start="#c8r_lb2"/>
+            <zone ulx="87" uly="124" lrx="544" lry="151" xml:id="c8r_l3" start="#c8r_lb3"/>
+            <zone ulx="87" uly="150" lrx="535" lry="177" xml:id="c8r_l4" start="#c8r_lb4"/>
+            <zone ulx="88" uly="176" lrx="525" lry="203" xml:id="c8r_l5" start="#c8r_lb5"/>
+            <zone ulx="89" uly="204" lrx="525" lry="229" xml:id="c8r_l6" start="#c8r_lb6"/>
+            <zone ulx="89" uly="229" lrx="515" lry="255" xml:id="c8r_l7" start="#c8r_lb7"/>
+
+            <zone ulx="84" uly="275" lrx="526" lry="298" xml:id="c8r_l8" start="#c8r_lb8"/>
+            <zone ulx="83" uly="296" lrx="525" lry="323" xml:id="c8r_l9" start="#c8r_lb9"/>
+            <zone ulx="83" uly="323" lrx="547" lry="352" xml:id="c8r_l10" start="#c8r_lb10"/>
+            <zone ulx="83" uly="352" lrx="559" lry="377" xml:id="c8r_l11" start="#c8r_lb11"/>
+            <zone ulx="81" uly="379" lrx="557" lry="407" xml:id="c8r_l12" start="#c8r_lb12"/>
+            <zone ulx="79" uly="407" lrx="555" lry="434" xml:id="c8r_l13" start="#c8r_lb13"/>
+            <zone ulx="85" uly="423" lrx="544" lry="461" xml:id="c8r_l14" start="#c8r_lb14"/>
+
+            <zone ulx="60" uly="456" lrx="531" lry="502" xml:id="c8r_l15" start="#c8r_lb15"/>
+            <zone ulx="62" uly="490" lrx="531" lry="529" xml:id="c8r_l16" start="#c8r_lb16"/>
+            <zone ulx="62" uly="511" lrx="527" lry="551" xml:id="c8r_l17" start="#c8r_lb17"/>
+            <zone ulx="61" uly="537" lrx="536" lry="575" xml:id="c8r_l18" start="#c8r_lb18"/>
+            <zone ulx="61" uly="558" lrx="543" lry="601" xml:id="c8r_l19" start="#c8r_lb19"/>
+            <zone ulx="65" uly="582" lrx="547" lry="622" xml:id="c8r_l20" start="#c8r_lb20"/>
+            <zone ulx="65" uly="603" lrx="547" lry="650" xml:id="c8r_l21" start="#c8r_lb21"/>
+
+        </surface>
+    
+    </facsimile>
+
+    <text subtype="manuscript" xml:lang="it" resp="#FP">
+        <group>
+            
+            <!--codifica della carta 7r-->
+            <pb n="c7r"/>
+
+            <text type="sonnet" xml:id="sonetto38">
+                <body>
+                    <delSpan spanTo="#a1" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="1" facs="#c7r_l1" xml:id="c7r_lb1"/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex></expan></choice> mirar' <persName>policlet<del rend="subpunct"><g ref="#oPuntoSottoscritto"/></del></persName> intento <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="a">fiso</rhyme></l>
+                            <space/><l><w>Con</w><w>gli</w><w>altri</w> <w>ch</w><w>ebber</w> fama di <w>quell</w><rhyme label="b"><w>arte</w></rhyme></l>
+                            <lb n="2" facs="#c7r_l2" xml:id="c7r_lb2" /><l>Mill<del rend="subpunct"><g ref="#ePuntoSottoscritto"/></del>' <choice><abbr>a<am><g ref="#nConTilde"/></am>i</abbr><expan resp="#EF" source="#LP" cert="high">anni</expan></choice> <choice><abbr>n<am><g ref="#oConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">no<ex>n</ex></expan></choice> uedrian la minor <rhyme label="b">parte</rhyme></l>
+                            <space/><l><w>De</w><w>la</w> belta che <w>m</w><w>aue</w> il cor <rhyme label="a"><choice><abbr>c<am><g ref="#oConTilde"/></am>quiso</abbr><expan resp="#EF" source="#LP" cert="high">co<ex>n</ex>quiso</expan></choice></rhyme></l>
+                        </lg>
+                        <lg type="quatrin" rhyme="abba">
+                            <lb n="3" facs="#c7r_l3" xml:id="c7r_lb3"/><l>Ma <choice><abbr>c<am><g ref="#tilde" type="overwrite"/></am>t<del rend="subpunct"><g ref="#oPuntoSottoscritto"/></del></abbr><expan resp="#EF" source="#LP" cert="high">c<ex>er</ex>t<del rend="subpunct"><g ref="#oPuntoSottoscritto"/></del></expan></choice> il mi<del rend="subpunct"><g ref="#oPuntoSottoscritto"/></del> <persName>Simon</persName> fu in <rhyme label="a">paradiso</rhyme>.</l>
+                            <space/><l>Onde questa gentil <choice><abbr>do<am><g ref="#nConTilde"/></am>a</abbr><expan resp="#EF" source="#LP" cert="high">don<ex>n</ex>a</expan></choice> si <rhyme label="b">parte</rhyme>,</l>
+                            <lb n="4" facs="#c7r_l4" xml:id="c7r_lb4"/><l>Iui la uide. <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> la ritrasse in <rhyme label="a">carte</rhyme>'</l>
+                            <space/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex></expan></choice> far fede quagiu del suo bel <rhyme label="b">uiso</rhyme>.</l>
+                        </lg>
+                        <lg type="terzin" rhyme="cdc">
+                            <lb n="5" facs="#c7r_l5" xml:id="c7r_lb5"/><l><w>L</w><w>opra</w> fu ben di quelle che nel<rhyme label="c">cielo</rhyme></l>
+                            <space/><l>Si <choice><abbr>po<am><g ref="#nConTilde"/></am>o</abbr><expan resp="#EF" source="#LP" cert="high">pon<ex>n</ex>o</expan></choice> ymaginar non qui <w>tra</w><rhyme label="d"><w>noi</w></rhyme>,</l>
+                            <lb n="6" facs="#c7r_l6" xml:id="c7r_lb6"/><l>Oue le membra <choice><abbr>fa<am><g ref="#nConTilde"/></am>o</abbr><expan resp="#EF" source="#LP" cert="high">fan<ex>n</ex>o</expan></choice> <w>a</w><w>l</w><w>alma</w> <rhyme label="c">uelo</rhyme>.</l>
+                        </lg>
+                        <lg type="terzin" rhyme="dcd">  
+                            <space/><l>Cortesia fe'ne la potea far <rhyme label="d">poi</rhyme></l>
+                            <lb n="7" facs="#c7r_l7" xml:id="c7r_lb7"/><l>Che fu disceso a <choice><abbr><am><g ref="#pAstaTagliata"/></am>uar</abbr><expan resp="#EF" source="#LP" cert="high">p<ex>ro</ex>uar</expan></choice> caldo <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="c">gielo</rhyme>,</l>
+                            <space/><l><choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Et</ex></expan></choice> del mortal sentiron <w>gli</w><w>occhi</w> <rhyme label="d">suoi</rhyme>.</l>
+                        </lg>
+                    <anchor xml:id="a1"/>
+                   </body>
+                </text>
+            
+                <lb/>
+            
+            <note type="marginal" xml:lang="lat" resp="#FP" target="#sonetto38 #sonetto39">
+                    <lb/><choice><abbr>tr</abbr><expan resp="#EF" source="#LP" cert="high">tr<ex>anscripti</ex></expan></choice> isti duo <choice><abbr><am><g ref="#iConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>in</ex></expan></choice> <choice><abbr>ord</abbr><expan resp="#EF" source="#LP" cert="high">ord<ex>ine</ex></expan></choice>. <choice><abbr>p<am><g ref="#titulus" type="overwrite"/></am></abbr><expan resp="#EF" source="#LP" cert="high">p<ex>ost</ex></expan></choice> mille <choice><abbr><am><g ref="#aConTilde"/>nos</am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>an</ex>nos</expan></choice> <date when="mercoledì 29-11-1357">.1357. <choice><abbr>m<am><g ref="#titulus" type="overwrite"/></am>cur<am><g ref="#titulus" type="overwrite"/></am></abbr><expan resp="#EF" source="#LP" cert="high">m<ex>er</ex>cur<ex>ii</ex></expan></choice> <time when="15:00">hora .<num type="cardinal">3</num>.</time>
+                    <lb/><choice><abbr>noue<am><g ref="#titulus" type="overwrite"/></am>br</abbr><expan resp="#EF" source="#LP" cert="high">noue<ex>m</ex>br<ex>is</ex></expan></choice> .<num type="cardinal">29</num>.</date> du<ex>m</ex> <choice><abbr>du<am><g ref="#titulus" type="overwrite"/></am></abbr><expan resp="#EF" source="#LP" cert="high">du<ex>m</ex></expan></choice>
+                    <lb/>uolo his <choice><abbr>o<am><g ref="#titulus" type="overwrite"/></am>nio</abbr><expan resp="#EF" source="#LP" cert="high">o<ex>mn</ex>nio</expan></choice> <choice><abbr>fin<am><g ref="#eConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">fin<ex>em</ex></expan></choice> dare. F ne
+                    <lb/><choice><abbr>u<am><g ref="#titulus" type="overwrite"/></am>q</abbr><expan resp="#EF" source="#LP" cert="high">u<ex>m</ex>q<ex>uam</ex></expan></choice> <choice><abbr><am><g ref="#aConTilde"/></am>pli</abbr><expan resp="#EF" source="#LP" cert="high"><ex>am</ex>pli<ex>us</ex></expan></choice> me
+                    <lb/><choice><abbr>tene<am><g ref="#aConTilde"/></am>t</abbr><expan resp="#EF" source="#LP" cert="high">tene<ex>an</ex>t</expan></choice>. <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <choice><abbr>ia<am><g ref="aConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">ia<ex>m</ex></expan></choice>
+                    <lb/><persName><choice><abbr>Ier<am><g ref="#titulus" type="overwrite"/></am>l</abbr><expan resp="#EF" source="#LP" cert="high">Ier<ex>o</ex>l<ex>imus</ex></expan></choice></persName> ut puto
+                    <lb/><choice><abbr>p<am><g ref="#iConTilde"/></am>m<am><g ref="uConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">p<ex>ri</ex>m<ex>um</ex></expan></choice>
+                </note>
+            
+                <lb/>
+                
+                <text type="sonnet" xml:id="sonetto39">
+                    <body>
+                        <delSpan spanTo="#a2" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="8" facs="#c7r_l8" xml:id="c7r_lb8"/><l>Quando <choice><abbr>giu<am><g ref="#titutlus" type="overwrite"/>se</am></abbr><expan resp="#EF" source="#LP" cert="high">giu<ex>n</ex>se</expan></choice> a <persName>Simon</persName> <w>l</w><w>alto</w> <rhyme label="a"><choice><abbr>c<am><g ref="#oConTilde"/></am>cepto</abbr><expan resp="#EF" source="#LP" cert="high">concepto</expan></choice></rhyme></l>
+                            <space/><l><w>Ch</w><w>a</w><w>mio</w> nome' gli pose' in man lo <rhyme label="b">stile</rhyme></l>
+                            <lb n="9" facs="#c7r_l9" xml:id="c7r_lb9"/><l><w>S</w><w>auesse</w> dato a <w>l</w><w>opera</w> <rhyme label="b">gentile</rhyme></l>
+                            <space/><l>Co la figura uoce <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="a">intelletto</rhyme></l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="10" facs="#c7r_l10" xml:id="c7r_lb10"/><l>Di sospir molti mi sgombraua il <rhyme label="a">petto</rhyme></l>
+                            <space/><l>Che cio <w>ch</w><w>altri</w> a piu caro a me fan <rhyme label="b">uile</rhyme></l>
+                            <lb n="11" facs="#c7r_l11" xml:id="c7r_lb11"/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am>o</abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex>o</expan></choice> <w>che</w><w>n</w> uista ella si mostra <rhyme label="b">humile</rhyme></l>
+                            <space/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Pro</ex></expan></choice>mettendomi pace nel <rhyme label="a">aspetto</rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="cdc">
+                            <lb n="12" facs="#c7r_l12" xml:id="c7r_lb12"/><l>Ma poi <w>ch</w><w>i</w> uengo a ragionar <w>co</w><rhyme label="c"><w>llei</w></rhyme></l>
+                            <space/><l><choice><abbr>Benignem<am><g ref="#eConTilde"/></am>te</abbr><expan resp="#EF" source="#LP" cert="high">Benignem<ex>en</ex>te</expan></choice> assai par che <w>m</w><rhyme label="d"><w>ascoltate</w></rhyme></l>
+                            <lb n="13" facs="#c7r_l13" xml:id="c7r_lb13"/><l>Se risponder sapesse a detti <rhyme label="c">miei</rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="cdc">
+                            <space/><l><persName>Pigmalion</persName> <choice><abbr>qu<am><g ref="#aConTilde"/></am>to</abbr><expan resp="#EF" source="#LP" cert="high">qu<ex>an</ex>to</expan></choice> lodar ti <rhyme label="c">dei</rhyme></l>
+                            <lb n="14" facs="#c7r_l14" xml:id="c7r_lb14"/><l><w>De</w><w>l</w><w>ymagine</w> tua se mille <rhyme label="d">uolte</rhyme></l>
+                            <space/><l><w>N</w><w>auesti</w> quel <w>ch</w><w>i</w> sol una <rhyme label="c">uorrej</rhyme></l>
+                        </lg>                        
+                     <anchor xml:id="a2"/>
+                    </body>
+                </text>
+            
+                <lb/>
+            
+                <text type="sonnet" xml:id="sonetto40" xml:lang="it" resp="#FP">
+                    <body>
+                    <delSpan spanTo="#a3" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="15" facs="#c7r_l15" xml:id="c7r_lb15"/><l>Que <w>che</w><w>n</w><placeName><w>tesaglia</w></placeName> ebbe le man si <rhyme label="a"><choice><abbr>pr<am><g ref="#nConTilde"/></am>te</abbr><expan resp="#EF" source="#LP" cert="high">pr<ex>on</ex>te</expan></choice></rhyme></l>
+                            <space/><l>A farla del ciuil sangue <rhyme label="b">uermiglia</rhyme></l>
+                            <lb n="16" facs="#c7r_l16" xml:id="c7r_lb16"/><l>Pianse mort<del rend="subpunct"><g ref="#oPuntoSottoscritto"/></del> il marito di sua <rhyme label="b">figlia</rhyme></l>
+                            <space/><l>Raffigurato <w>a</w><w>le</w> fattezze <rhyme label="a">conte</rhyme></l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="17" facs="#c7r_l17" xml:id="c7r_lb17"/><l>El pastor <w>ch</w><w>a</w> <persName>Golia</persName> ruppe la <rhyme label="a">fronte</rhyme></l>
+                            <space/><l>Pianse la rebellante sua <rhyme label="b">famiglia</rhyme></l>
+                            <lb n="18" facs="#c7r_l18" xml:id="c7r_lb18"/><l><choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Et</ex></expan></choice> Sopr<del rend="subpunct"><g ref="#aPuntoSottoscritto"/></del> il buon <persName>Saul</persName> <choice><abbr>c<am><g ref="#aConTilde"/></am>gio</abbr><expan resp="#EF" source="#LP" cert="high">c<ex>an</ex>gio</expan></choice> le <rhyme label="b">ciglia</rhyme></l>
+                            <space/><l>Onde assai puo dolersi il fiero <rhyme label="a"><choice><abbr>m<am><g ref="#oConTilde"/></am>te</abbr><expan resp="#EF" source="#LP" cert="high">m<ex>on</ex>te</expan></choice></rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="cdc">
+                            <lb n="19" facs="#c7r_l19" xml:id="c7r_lb19"/><l>Ma voi che mai pieta <choice><abbr>n<am><g ref="#oConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">n<ex>on</ex></expan></choice> <rhyme label="c">discolora</rhyme></l>
+                            <space/><l><choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Et</ex></expan></choice> <w>ch</w><w>auete</w> gli schermi sempre <rhyme label="d">accorti</rhyme></l>
+                            <lb n="20" facs="#c7r_l20" xml:id="c7r_lb20"/><l>Contra <w>l</w><w>arco</w> <w>ch</w><w>amor</w> indarno <rhyme label="c">tira</rhyme></l>
+                        </lg>    
+                        <lg type="terzin" rhyme="dcd">
+                            <space/><l>Mi uedete stratiare a mille <rhyme label="d">morti</rhyme></l>
+                            <lb n="21" facs="#c7r_l21" xml:id="c7r_lb21"/><l>Ne lagrima <choice><abbr><am><g ref="#pAstaTagliata"/></am>o</abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex>o</expan></choice> discese <rhyme label="c">ancora</rhyme></l>
+                            <space/><l>Da be <w>uostr</w><w>occhi</w> ma disdegno <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="d">ira</rhyme></l>
+                        </lg>    
+                        <anchor xml:id="a3"/>
+                    </body>
+                </text>            
+                
+            <!--codfica della carta 7v-->
+            <pb n="c7v"/>
+            <text type="sonnet" xml:id="sonetto41" xml:lang="it" resp="#FP">
+                <body>
+                <delSpan spanTo="#a4" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="1" facs="#c7v_l1" xml:id="c7v_lb1"/><l><w>L</w><w>arbor</w> gentil che forte amai <w>molt</w><rhyme label="a"><w><choice><abbr><am><g ref="#aConTilde"/></am>ni</abbr><expan resp="#EF" source="#LP" cert="high"><ex>an</ex>ni</expan></choice></w></rhyme></l>
+                            <space/><l>Mentre <w>i</w><w>be</w> ramj <choice><abbr>n<am><g ref="#oConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">n<ex>on</ex></expan></choice> <w>m</w><w>ebber</w> a <rhyme label="b">sdegno</rhyme></l>
+                            <lb n="2" facs="#c7v_l2" xml:id="c7v_lb2"/><l>Fiorir faceua il mio debile <rhyme label="b"><choice><abbr><am><g ref="#iConTilde"/></am>gegno</abbr><expan resp="#EF" source="#LP" cert="high"><ex>in</ex>gegno</expan></choice></rhyme></l>
+                            <space/><l><w>A</w><w>la</w> sua ombra <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> crescer negli <rhyme label="a"><choice><abbr>affa<am><g ref="#nConTilde"/></am>j</abbr><expan resp="#EF" source="#LP" cert="high">affa<ex>nn</ex>j</expan></choice></rhyme></l> 
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="3" facs="#c7v_l3" xml:id="c7v_lb3"/><l>Poi che securo me di tali <rhyme label="a"><choice><abbr>ing<am><g ref="#aConTilde"/></am>ni</abbr><expan resp="#EF" source="#LP" cert="high">ing<ex>an</ex>ni</expan></choice></rhyme></l>
+                            <space/><l>Fece di dolze se spietato <rhyme label="b">legno</rhyme></l>
+                            <lb n="4" facs="#c7v_l4" xml:id="c7v_lb4"/><l>I riuolsi <w>i</w><w>pensieri</w> tutti <w>ad</w><w>un</w> <rhyme label="b">segno</rhyme></l>
+                            <space/><l>Che parlan sempre <w>de</w><w>lor</w> tristi <rhyme label="a"><choice><abbr>d<am><g ref="#aConTilde"/></am>ni</abbr><expan resp="#EF" source="#LP" cert="high">d<ex>an</ex>ni</expan></choice></rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="cde">
+                            <lb n="5" facs="#c7v_l5" xml:id="c7v_lb5"/><l>Che potra dir chi <choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> amor <rhyme label="c">sospira</rhyme></l>
+                            <space/><l><w>S</w><w>altra</w> <choice><abbr>s<am><g ref="#pAstaTagliata"/></am>anza</abbr><expan resp="#EF" source="#LP" cert="high">s<ex>per</ex>anza</expan></choice> le mie rime <rhyme label="d">noue</rhyme></l>
+                            <lb n="6" facs="#c7v_l6" xml:id="c7v_lb6"/><l>Gli auessir data <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> costei la <rhyme label="e">perde</rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="dce">
+                            <space/><l>Ne poeta ne colga mai ne <rhyme label="d"><persName>gioue</persName></rhyme></l>
+                            <lb n="7" facs="#c7v_l7" xml:id="c7v_lb7"/><l>La priuilegi <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> al sol uenga in <rhyme label="c">ira</rhyme></l>
+                            <space/><l>Si che si secchi ogni sua foglia <rhyme label="e">uerde</rhyme></l>
+                        </lg>
+                    <anchor xml:id="a4"/>
+                </body>
+            </text>
+            
+            <lb/>
+            
+            <text type="sonnet" xml:id="sonetto42" xml:lang="it" resp="#FP">
+                <body>
+                <delSpan spanTo="#a5" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="8" facs="#c7v_l8" xml:id="c7v_lb8"/><l><w>S</w><w>io</w> credesse <choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> morte <choice><abbr>es<am><g ref="#sAstaTagliata"/></am>e</abbr><expan resp="#EF" source="#LP" cert="high">es<ex>ser</ex>e</expan></choice> <rhyme label="a">scarco</rhyme></l>
+                            <space/><l>Del pensiero amoroso che <w>m</w><rhyme label="b"><w>atterra</w></rhyme></l>
+                            <lb n="9" facs="#c7v_l9" xml:id="c7v_lb9"/><l><w>Co</w><w>le</w> mie manj aurei gia posto in <rhyme label="b"><choice><abbr>t<am><g ref="#tilde" type="overwrite"/></am>ra</abbr><expan resp="#EF" source="#LP" cert="high">t<ex>er</ex>ra</expan></choice></rhyme></l>
+                            <space/><l>Queste <choice><abbr>m<am><g ref="#eConTilde"/></am>bra</abbr><expan resp="#EF" source="#LP" cert="high">m<ex>em</ex>bra</expan></choice> noiose <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> quello <rhyme label="a"><choice><abbr><am><g ref="#iConTilde"/></am>carco</abbr><expan resp="#EF" source="#LP" cert="high"><ex>in</ex>carco</expan></choice></rhyme></l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="10" facs="#c7v_l10" xml:id="c7v_lb10"/><l>Ma <choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> <w>ch</w><w>io</w> temo che sarebbe un <rhyme label="a">uarco</rhyme></l>
+                            <space/><l>Di <choice><abbr>pi<am><g ref="#aConTilde"/></am>to</abbr><expan resp="#EF" source="#LP" cert="high">pi<ex>an</ex>to</expan></choice> in <choice><abbr>pi<am><g ref="#aConTilde"/></am>to</abbr><expan resp="#EF" source="#LP" cert="high">pi<ex>an</ex>to</expan></choice> <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <w>d</w><w>una</w> in altra <rhyme label="b">guerra</rhyme></l>
+                            <lb n="11" facs="#c7v_l11" xml:id="c7v_lb11"/><l>Di qua dal passo ancor <subst><del rend="overstrike"><w>ch</w><w>altri</w> mi</del> <add place="supralinear">che mi si</add></subst> <rhyme label="b">serra</rhyme></l>
+                            <space/><l>Mecco <subst><del rend="overstrike">mj trouo</del> <add place="supralinear">rimangho</add></subst> lasso <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> mecco il <rhyme label="a">uarco</rhyme></l>
+                        </lg> 
+                        <lg type="terzin" rhyme="cde">
+                            <lb n="12" facs="#c7v_l12" xml:id="c7v_lb12"/><l><choice><abbr>t<am><g ref="#eConTilde"/></am>po</abbr><expan resp="#EF" source="#LP" cert="high">t<ex>em</ex>po</expan></choice> ben fora omai <w>d</w><w>auere</w> <rhyme label="c">spinto</rhyme></l>
+                            <space/><l><w>L</w><w>ultimo</w> strale la dispietata <rhyme label="d">corda</rhyme></l>
+                            <lb n="13" facs="#c7v_l13" xml:id="c7v_lb13"/><l><w>Ne</w><w>l</w><w>altruj</w> sangue gia bagnato <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="e"><choice><abbr>t<am><g ref="#iConTilde"/></am>to</abbr><expan resp="#EF" source="#LP" cert="high">t<ex>in</ex>to</expan></choice></rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="dce">
+                            <space/><l><choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Et</ex></expan></choice> io ne prego amore <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> quella <rhyme label="d">sorda</rhyme></l>
+                            <lb n="14" facs="#c7v_l14" xml:id="c7v_lb14"/><l>Che mi lasso de suoi colori <rhyme label="c">dipinto</rhyme></l>
+                            <space/><l><choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Et</ex></expan></choice> di chiamarmi a se <choice><abbr>n<am><g ref="#oConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">n<ex>on</ex></expan></choice> le <rhyme label="e">ricorda</rhyme></l>
+                        </lg>
+                     <anchor xml:id="a5"/>
+                </body>
+            </text>
+            
+            <lb/>
+            
+            <text type="sonnet" xml:id="sonetto43" xml:lang="it" resp="#FP">
+                <body>
+                <delSpan spanTo="#a6" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="15" facs="#c7v_l15" xml:id="c7v_lb15"/><l><w>L</w><w>oro</w> <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> le perle e i fior uermigli e <rhyme label="a">bianchi</rhyme></l>
+                            <space/><l><w>Che</w><w>l</w><w>uerno</w> deuria far <choice><abbr>l<am><g ref="#aConTilde"/></am>guidi</abbr><expan resp="#EF" source="#LP" cert="high">l<ex>an</ex>guidi</expan></choice> <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="b">secc<gap reason="illegibile"/><supplied resp="#EF" source="#LP" cert="high">hi</supplied></rhyme></l>
+                            <lb n="16" facs="#c7v_l16" xml:id="c7v_lb16"/><l>Son <choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> me acerbi <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> uelenosi <rhyme label="b">stecchi</rhyme></l>
+                            <space/><l><w>Ch</w><w>io</w> <choice><abbr><am><g ref="#pAstaTagliata"/></am>uo</abbr><expan resp="#EF" source="#LP" cert="high"><ex>pro</ex>uo</expan></choice> <subst><del rend="overstrike">notte <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> giorno</del> <add place="supralinear"><choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> lo petto</add></subst> <choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> li <rhyme label="a">fianchi</rhyme></l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="17" facs="#c7v_l17" xml:id="c7v_lb17"/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am>o</abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex>o</expan></choice> <w>i</w><w>di</w> miei fien lagrimosi <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="a"><choice><abbr>m<am><g ref="#aConTilde"/></am>chi</abbr><expan resp="#EF" source="#LP" cert="high">m<ex>an</ex>chi</expan></choice></rhyme></l>
+                            <space/><l>Che gran duol radeuolte auien <w>che</w><rhyme label="b"><w>nuecc<gap reason="illegibile"/><supplied resp="#EF" source="#LP" cert="high">hi</supplied></w></rhyme></l>
+                            <lb n="18" facs="#c7v_l18" xml:id="c7v_lb18"/><l>Ma piu <w>ne</w><choice><abbr><am><g ref="#titulus" type="overwrite"/></am>colpo</abbr><expan resp="#EF" source="#LP" cert="high"><ex>n</ex>colpo</expan></choice> i micidiali <rhyme label="b">specchi</rhyme></l>
+                            <space/><l><w>Che</w><w>n</w><w>uagheggiar</w> uoi stessa auete <rhyme label="a">stanch<gap reason="illegibile"/><supplied resp="#EF" source="#LP" cert="high">i</supplied></rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="cde">
+                            <lb n="19" facs="#c7v_l19" xml:id="c7v_lb19"/><l>Questi <subst><del rend="overstrike"><choice><abbr>po<am><g ref="#sAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high">po<ex>ser</ex></expan></choice></del> <add place="supralinear">poser</add></subst> silentio al signor <rhyme label="c">mio</rhyme></l>
+                            <space/><l>Che <choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> me ui pregaua <add place="supralinear"><w>ond</w><w>el</w></add> si <rhyme label="d">tacque</rhyme></l>
+                            <lb n="20" facs="#c7v_l20" xml:id="c7v_lb20"/><l>Veggendo in uoi finir uostro <rhyme label="e">disio</rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="dce">
+                            <space/><l>Questi fur fabricati sopra <w>l</w><rhyme label="d"><w>acque</w></rhyme></l>
+                            <lb n="21" facs="#c7v_l21" xml:id="c7v_lb21"/><l><w>D</w><w>abisso</w> <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <choice><abbr>t<am><g ref="#iConTilde"/></am>ti</abbr><expan resp="#EF" source="#LP" cert="high">t<ex>in</ex>ti</expan></choice> nel <choice><abbr>ett<am><g ref="#titulus" type="overwrite"/></am>no</abbr><expan resp="#EF" source="#LP" cert="high">ett<ex>er</ex>no</expan></choice> <rhyme label="c">oblio</rhyme></l>
+                            <space/><l><w>Onde</w><w>l</w> <choice><abbr>p<am><g ref="#titulus" type="overwrite"/></am>ricipio</abbr><expan resp="#EF" source="#LP" cert="high">pri<ex>n</ex>cipio</expan></choice> di mia morte <rhyme label="e">nacqu<gap reason="illegibile"/><supplied resp="#EF" source="#LP" cert="high">e</supplied></rhyme></l>
+                        </lg>
+                   <anchor xml:id="a6"/>
+                </body>
+            </text>
+            <!-- codifica della carta 8r-->
+            <pb n="c8r "/> 
+            <text type="sonnet" xml:id="sonetto44" xml:lang="it" resp="#FP">
+                <body>
+                <delSpan spanTo="#a7" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="1" facs="#c8r_l1" xml:id="c8r_lb1"/><l>Quando dal <choice><abbr><am><g ref="#pAstaTagliata"/></am>prio</abbr><expan resp="#EF" source="#LP" cert="high"><ex>pro</ex>prio</expan></choice> sito si <rhyme label="a">rimoue</rhyme></l>
+                            <space/><l><w>L</w><w>arbor</w> <w>ch</w><w>amo</w> gia <persName>phebo</persName> in corpo <rhyme label="b">humano</rhyme></l>
+                            <lb n="2" facs="#c8r_l2" xml:id="c8r_lb2"/><l>Sospira <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> suda <w>a</w><w>l</w><w>opera</w> <rhyme label="b"><persName>uulcano</persName></rhyme></l>
+                            <space/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex></expan></choice> rinfrescar <w>l</w><w>aspre</w> saette a <rhyme label="a"><persName>gioue</persName></rhyme></l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="3" facs="#c8r_l3" xml:id="c8r_lb3"/><l>Il qual or tuona or neuica <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> or <rhyme label="a">pioue</rhyme></l>
+                            <space/><l>Senca honorar piu <persName>cesare</persName> che <rhyme label="b"><persName>giano</persName></rhyme></l>
+                            <lb n="4" facs="#c8r_l4" xml:id="c8r_lb4"/><l>La terra <choice><abbr>pi<am><g ref="#aConTilde"/></am>ge</abbr><expan resp="#EF" source="#LP" cert="high">pi<ex>an</ex>ge</expan></choice> <w>e</w><w>l</w> sol ci sta <rhyme label="b">lontano</rhyme></l>
+                            <space/><l>Che la sua cara amica uede <rhyme label="a">altroue</rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="cdc">
+                            <lb n="5" facs="#c8r_l5" xml:id="c8r_lb5"/><l>Allor riprende ardir <persName>saturno</persName> <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="c"><persName>marte</persName></rhyme></l>
+                            <space/><l>Crudeli stelle <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <persName>orione</persName> <rhyme label="d">armato</rhyme></l>
+                            <lb n="6" facs="#c8r_l6" xml:id="c8r_lb6"/><l>Specca a tristi nocchieri <choice><abbr>gou<am><g ref="#titulus" type="overwrite"/></am>ni</abbr><expan resp="#EF" source="#LP" cert="high">gou<ex>er</ex>ni</expan></choice> <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="e">sarte</rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="dcd">
+                            <space/><l><persName>Eolo</persName> a <persName><choice><abbr>Nept<am><g ref="#uConTilde"/></am>no</abbr><expan resp="#EF" source="#LP" cert="high">Nept<ex>un</ex>no</expan></choice></persName> <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> a <persName>Iunon</persName> <rhyme label="d">turbato</rhyme></l>
+                            <lb n="7" facs="#c8r_l7" xml:id="c8r_lb7"/><l>Fa sentire <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> a noi come si <rhyme label="c">parte</rhyme></l>
+                            <space/><l><w>Il</w><w>bel</w> uiso <w>dagli</w><w>angeli</w>  <rhyme label="e">aspettato</rhyme></l>
+                        </lg>
+                      <anchor xml:id="a7"/>
+                </body>
+            </text>
+            
+            <lb/>
+            
+            <text type="sonnet" xml:id="sonetto45" xml:lang="it" resp="#FP">
+                <body>
+                <delSpan spanTo="#a8" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="8" facs="#c8r_l8" xml:id="c8r_lb8"/><l>Ma poi <w>che</w><w>l</w><w>dolce</w> riso humile <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> <rhyme label="a">piano</rhyme></l>
+                            <space/><l>Piu <choice><abbr>n<am><g ref="#oConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">n<ex>on</ex></expan></choice> asconde sue bellecce <rhyme label="b">noue</rhyme></l>
+                            <lb n="9" facs="#c8r_l9" xml:id="c8r_lb9"/><l>Le braccia <w>a</w><w>la</w> fucina in darno <rhyme label="b">moue</rhyme></l>
+                            <space/><l><w>L</w><w>antiquissimo</w> fabbro <rhyme label="a">ciciliano</rhyme></l>
+                       </lg> 
+                       <lg type="quatrain" rhyme="abba">
+                            <lb n="10" facs="#c8r_l10" xml:id="c8r_lb10"/><l><w>Ch</w><w>a</w> <persName>gioue</persName> tolte son <w>l</w><w>arme</w> di <rhyme label="a">mano</rhyme></l>
+                            <space/><l>Temprate in <placeName><choice><abbr>m<am><g ref="#oConTilde"/></am>gibello</abbr><expan resp="#EF" source="#LP" cert="high">m<ex>on</ex>gibello</expan></choice></placeName> a tutte <rhyme label="b">proue</rhyme></l>
+                            <lb n="11" facs="#c8r_l11" xml:id="c8r_lb11"/><l>Et sua sorella par che si <rhyme label="b">rinoue</rhyme></l>
+                            <space/><l>Nel bel guardo <w>d</w><persName><w>appollo</w></persName> a mano a <rhyme label="a">mano</rhyme></l>
+                       </lg>
+                       <lg type="terzin" rhyme="cdc">
+                            <lb n="12" facs="#c8r_l12" xml:id="c8r_lb12"/><l><w>Del</w><w>lito</w> occidental si moue un <rhyme label="c">fiato</rhyme></l>
+                            <space/><l>Che fa securo il nauigar senza <rhyme label="d">arte</rhyme></l>
+                            <lb n="13" facs="#c8r_l13" xml:id="c8r_lb13"/><l><choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Et</ex></expan></choice> desta <w>i</w><w>fiori</w> tra <w>l</w><w>erba</w> in ciarcun <rhyme label="c">prato</rhyme></l>
+                       </lg> 
+                       <lg type="terzin" rhyme="dcd">
+                            <space/><l>Stelle noiose fuggon <w>d</w><w>ogni</w> <rhyme label="d">parte</rhyme></l>
+                            <lb n="14" facs="#c8r_l14" xml:id="c8r_lb14"/><l>Disperse dal bel uiso <rhyme label="c"><choice><abbr><am><g ref="#iConTilde"/></am>namorato</abbr><expan resp="#EF" source="#LP" cert="high"><ex>in</ex>namorato</expan></choice></rhyme></l>
+                            <space/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex></expan></choice> cui lagrime molte son gia <rhyme label="d">sparte</rhyme></l>
+                       </lg> 
+                    <anchor xml:id="a8"/>
+                </body>
+            </text>
+            
+            <lb/>
+            
+            <text type="sonnet" xml:id="sonetto46" xml:lang="it" resp="#FP">
+                <body>
+                <delSpan spanTo="#a9" rend="line-through"/>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="15" facs="#c8r_l15" xml:id="c8r_lb15"/><l>Il figlio di <persName>latona</persName> auea gia <rhyme label="a">noue</rhyme></l>
+                            <space/><l>Volte guardato <w>dal</w><w>balcon</w> <rhyme label="b">sourano</rhyme></l>
+                            <lb n="16" facs="#c8r_l16" xml:id="c8r_lb16"/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex></expan></choice> quella <w>ch</w><w>alcun</w> <choice><abbr>t<am><g ref="#eConTilde"/></am>po</abbr><expan resp="#EF" source="#LP" cert="high">t<ex>em</ex>po</expan></choice> mosse <w>in</w><rhyme label="b"><w>uano</w></rhyme></l>
+                            <space/><l>I suoi sospiri <choice><abbr><am><g ref="#etTironiana"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>et</ex></expan></choice> or <w>gli</w><w>altruj</w> <rhyme label="a"><choice><abbr>c<am><g ref="#oConTilde"/></am>moue</abbr><expan resp="#EF" source="#LP" cert="high">c<ex>om</ex>moue</expan></choice></rhyme></l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <lb n="17" facs="#c8r_l17" xml:id="c8r_lb17"/><l>Poi che cercando stancho <choice><abbr>n<am><g ref="#oConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">n<ex>on</ex></expan></choice> seppe <rhyme label="a">oue</rhyme></l>
+                            <space/><l><w>S</w><w>albergasse</w> da presso o di <rhyme label="b">lontano</rhyme></l>
+                            <lb n="18" facs="#c8r_l18" xml:id="c8r_lb18"/><l>Mostrossi a noi qual huom <choice><abbr><am><g ref="#pAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high"><ex>per</ex></expan></choice> doglia <rhyme label="b"><choice><abbr><am><g ref="#iConTilde"/></am>sano</abbr><expan resp="#EF" source="#LP" cert="high"><ex>in</ex>sano</expan></choice></rhyme></l>
+                            <space/><l>Che molto amata cosa <choice><abbr>n<am><g ref="#oConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">n<ex>on</ex></expan></choice> <rhyme label="a">ritroue</rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="cdc">
+                            <lb n="19" facs="#c8r_l19" xml:id="c8r_lb19"/><l>E cosi tristo standosi in <rhyme label="c">disparte</rhyme></l>
+                            <space/><l>Tornar <choice><abbr>n<am><g ref="#oConTilde"/></am></abbr><expan resp="#EF" source="#LP" cert="high">n<ex>on</ex></expan></choice> uide il uiso che <rhyme label="d">laudato</rhyme></l>
+                            <lb n="20" facs="#c8r_l20" xml:id="c8r_lb20"/><l>Sara <w>s</w><w>io</w> uiuo in piu di mille <rhyme label="c">carte</rhyme></l>
+                        </lg>
+                        <lg type="terzin" rhyme="dcd">
+                            <space/><l>Et pieta luj medesmo auea <rhyme label="d"><choice><abbr>c<am><g ref="#aConTilde"/></am>giato</abbr><expan resp="#EF" source="#LP" cert="high">c<ex>an</ex>giato</expan></choice></rhyme></l>
+                            <lb n="21" facs="#c8r_l21" xml:id="c8r_lb21"/><l>Si <choice><abbr>c<am><g ref="#hAstaTagliata"/></am></abbr><expan resp="#EF" source="#LP" cert="high">c<ex>he</ex></expan></choice> <w>i</w><w>begli</w><w>occhi</w> lagrimauan <rhyme label="c">parte</rhyme></l>
+                            <space/><l><choice><abbr><am><g ref="#PAstaTagliata"/></am>o</abbr><expan resp="#EF" source="#LP" cert="high"><ex>Per</ex>o</expan></choice> <w>l</w><w>aere</w> <choice><abbr>rit<am><g ref="#eConTilde"/></am>ne</abbr><expan resp="#EF" source="#LP" cert="high">rit<ex>en</ex>ne</expan></choice> il primo <rhyme label="d">stato</rhyme></l>
+                        </lg>
+                    <anchor xml:id="a9"/>
+                </body>
+            </text>
+        </group>
+        
+        <back>
+            <div> 
+                
+              <listBibl>                    
+                <biblStruct>
+                    <monogr xml:id="LP">
+                        <author>Paolino Laura (a cura di)</author>
+                        <title>Il Codice degli Abbozzi. Edizione e storia del manoscritto Vaticano latino 3196</title>
+                        <imprint>
+                            <publisher>Riccardo Ricciardi</publisher>                            
+                            <date when="200">2000</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>             
+               </listBibl>
+                
+            </div>
+        </back>
+        
+    </text>
+    
+    
+
+</TEI>
